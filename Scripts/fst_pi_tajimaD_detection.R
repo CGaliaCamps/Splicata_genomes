@@ -6,11 +6,6 @@ if (!require("car")) {
   install.packages("car", dependencies = TRUE)
   library(car)}
 
-#################################################################################
-###!!!!!!Els fitxers d'entrada s'han danar modificant aix? com els plots!!!!!!###
-#################################################################################
-
-
 setwd("E:/styela/Molecular/Genomica poblacions/DNA mundial/WGS_mundial/all_chr_pi_fst_TajimaD")
 
 # plots dels outliers de la MEAN_FST
