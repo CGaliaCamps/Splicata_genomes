@@ -65,7 +65,7 @@ slideFunct <- function(data, window, step){
   return(result)
 }
 
-#aplica la funció a tot
+#aplica la funciÃ³ a tot
 position <- slideFunct(data=TS$POS, window=10000, step = 2500)
 valuesBRA10 <- slideFunct(data=TS$BRA10 , window=10000, step = 2500)
 valuesBRA11 <- slideFunct(data=TS$BRA11  , window=10000, step = 2500)
@@ -92,7 +92,7 @@ valuesPE4 <- slideFunct(data=TS$PE4   , window=10000, step = 2500)
 valuesPE7 <- slideFunct(data=TS$PE7    , window=10000, step = 2500)
 valuesPE8 <- slideFunct(data=TS$PE8   , window=10000, step = 2500)
 
-#comverteix els valors de la funció a dataframes
+#comverteix els valors de la funciÃ³ a dataframes
 position <- as.data.frame(position)
 valuesBRA10 <- as.data.frame(valuesBRA10)
 valuesBRA11 <- as.data.frame(valuesBRA11)
